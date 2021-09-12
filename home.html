@@ -31,7 +31,7 @@
                         <ul class="nav nav-tabs tabs-left" style="background-color: #387bb3; height: 430px; ">
                             <li class="active"><a href="#latest" data-toggle="tab">Latest News</a></li>
                             <li><a href="#sports" data-toggle="tab" >Sports News</a></li>
-                            <li><a href="#political" data-toggle="tab">Political News</a></li>
+                            <li><a href="#political" data-toggle="tab">Political News</a></li> 
                             <li><a href="#technolgy" data-toggle="tab">Technolgy News</a></li>
                             <li><a href="#academic" data-toggle="tab" >Academic News</a></li>
                             <li><a href="#health" data-toggle="tab">Health News</a></li>
@@ -42,9 +42,13 @@
                     </div>
                         <div class="col-xs-9">
                             <div class="tab-content">
-                                <div class="tab-pane active" id="#latest">
+                                <!-- tab or list one -->
+                                <div class="tab-pane active" id="latest">
                                     <div class="container" style="width: 69vw;">
                                         <div class="row">
+                                            <div class="page-header">
+                                                <h1>Latest News</h1>
+                                              </div>
                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px; box-shadow: burlywood; box-shadow: 0px 2px 2px 0px;">
                                                 Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
                                                 Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu template goes slightly against the grain. It is also fully mobile-friendly, offering an off-canvas menu for a better user experience. Compatible browsers: Chrome, Edge, Firefox, Opera, Safari
@@ -60,30 +64,243 @@
                               
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                               
-                               <div class="tab-pane" id="#political">
-                                   <div class="container" style="width: 69vw;">
-                                        <div class="row">
-                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px; box-shadow: burlywood; ">
-                                               Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
-                                               Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu template goes slightly against the grain. It is also fully mobile-friendly, offering an off-canvas menu for a better user experience. Compatible browsers: Chrome, Edge, Firefox, Opera, Safari
-                                               menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus. Bootstrap's dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures.
-                                              Bootstrap Navigation Bar - W3SchoolsWell 
-                                            </div>
-                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px; box-shadow: burlywood; ">
-                                               Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
-                                               Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu template goes slightly against the grain. It is also fully mobile-friendly, offering an off-canvas menu for a better user experience. Compatible browsers: Chrome, Edge, Firefox, Opera, Safari
-                                                menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus. Bootstrap's dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures.
-                                                Bootstrap Navigation Bar - W3Schools
-                                               Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more. Tutorials References Exercises Videos Menu
-                              
-                                            </div>
 
+                                        <div class="row">
+                                            <div class="col-sm-12" style="margin-top: 10px;">
+                                               <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                                                     Comment on the Post
+                                                 </button>
+
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                       <div class="modal-dialog" role="document">
+                                                           <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                  <h5 class="modal-title" id="exampleModalLabel">Leave a Comment</h5>
+                                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                       <span aria-hidden="true">&times;</span>
+                                                                   </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                   <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
+                                                                       <form>
+                                                                          <label for="subject">Message</label>
+                                                                          <textarea id="subject" style=" width: 100%; padding: 12px; border: 1px solid #ccc;
+                                                                          resize: vertical;"name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                                                           <input type="submit" style=" background-color: #04AA6D; color: white; padding: 12px; border:none; border-radius:4px; cursor: pointer; margin: 10px;" value="Submit">
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
+                                <!-- tab or list two -->
+                                <div class="tab-pane" id="sports">
+                                    <div class="container" style="width: 69vw;">
+                                         <div class="row">
+                                            <div class="page-header">
+                                                <h1>Sports</h1>
+                                              </div>
+                                             <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu template goes slightly against the grain. It is also fully mobile-friendly, offering an off-canvas menu for a better user experience. Compatible browsers: Chrome, Edge, Firefox, Opera, Safari
+                                                menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus. Bootstrap's dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures.
+                                               Bootstrap Navigation Bar - W3SchoolsWell 
+                                             </div>
+                                             <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu template goes slightly against the grain. It is also fully mobile-friendly, offering an off-canvas menu for a better user experience. Compatible browsers: Chrome, Edge, Firefox, Opera, Safari
+                                                 menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus. Bootstrap's dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures.
+                                                 Bootstrap Navigation Bar - W3Schools
+                                                Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, Python, PHP, Bootstrap, Java, XML and more. Tutorials References Exercises Videos Menu
+                               
+                                             </div>
+ 
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12" style="margin-top: 10px;">
+                                               <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#comment">
+                                                     Comment on the Post
+                                                 </button>
 
+                                                    <div class="modal fade" id="comment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                       <div class="modal-dialog" role="document">
+                                                           <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                  <h5 class="modal-title" id="exampleModalLabel">Leave a Comment</h5>
+                                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                       <span aria-hidden="true">&times;</span>
+                                                                   </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                   <div style="border-radius: 5px; background-color: #f2f2f2; padding: 20px;">
+                                                                       <form>
+                                                                          <label for="subject">Message</label>
+                                                                          <textarea id="subject" style=" width: 100%; padding: 12px; border: 1px solid #ccc;
+                                                                          resize: vertical;"name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                                                           <input type="submit" style=" background-color: #04AA6D; color: white; padding: 12px; border:none; border-radius:4px; cursor: pointer; margin: 10px;" value="Submit">
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- tab or list three -->
+                                <div class="tab-pane" id="political">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Political News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <!-- tab or list fourth -->
+                                <div class="tab-pane" id="technolgy">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Technolgy News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <!-- tab or list fifth -->
+                                <div class="tab-pane" id="academic">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Academic News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <!-- tab or list sixth -->
+                                <div class="tab-pane" id="health">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Health News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <!-- tab or list seventh -->
+                                <div class="tab-pane" id="agric">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Agriculture News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <!-- tab or list eighth -->
+                                <div class="tab-pane" id="job">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Jobs News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <!-- tab or list ninth -->
+                                <div class="tab-pane" id="announce">
+                                    <div class="container" style="width: 69vw;">
+                                        <div class="row">
+                                            <div class="page-header">
+                                                <h1>Announcement News</h1>
+                                              </div>
+                                            <div class="col-md-4" style="background-color: #efefef; box-shadow: blanchedalmond; padding: 15px;">
+                                                   Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                   Bootstrap Menu 
+                                            </div>
+                                            <div class="col-md-5" style="background-color: #efefef; margin-left: 30px; padding: 15px;  ">
+                                                  Nav. Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.. Active states—with .active—to indicate the current page can be applied directly to .nav-links or their 
+                                                  Bootstrap Menu V19 Instead of sticking to the traditional navigation positioning on a website, this free left sidebar menu 
+                               
+                                            </div>
+ 
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             
